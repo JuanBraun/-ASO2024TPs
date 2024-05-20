@@ -1,0 +1,22 @@
+Tarea_SIN_hilos
+_El tiempo de ejecución no es predecible y puede variar más de dos o tres segundos en cada ejecución.
+_Instalar un programa.
+_Cargar una página web.
+
+
+Tarea_CON_hilos
+_Ahora el tiempo es predecible y siempre va a ser alrededor de 4 seg. El tiempo de respuesta mejoró.
+_ No, no las completan en el orden 1, 2, 3.
+_Una extensión de VScode.
+
+
+Sumador-restador_CON_race.py
+_El tiempo de ejecución es el mismo.
+_El valor siempre es 0.
+_El valor siempre es cero porque acumulador es una variable global.
+_Se puede corregir colocando un lock al principio de cada ciclo.
+
+
+Sumador-restador_SIN_race.py
+Se desbloquea y da como valor 5000 o un numero negativo
+_El tiempo de ejecución es el mismo.
